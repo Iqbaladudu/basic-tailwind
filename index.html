@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <title>Learn Tailwind</title>
+</head>
+<!-- 
+    breakpoints
+    sm: = 640px
+    md: = 768px
+    lg: = 1024px
+    xl: = 1280px
+    2xl: = 1536px
+-->
+<body class="bg-gray-100">
+    <!-- 
+    p = padding
+    pl = padding left
+    pt = padding top
+    px = padding x axis
+    py = padding y axis
+    space-y = margin top to all child emelent
+    max-w = max width
+    mx = margin x ax ies, left right
+    -->
+    <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl">
+    <!-- h = height -->
+    <img class="h-10" src="./img/logo.svg" alt="Workacation">
+    <!-- mt = margin top -->
+    <img class="sm:mt-8 mt-6 rounded-lg shadow-xl object-center sm:object-cover sm:h-64 sm:w-full" src="./img/beach-work.jpg" alt="Workacation women">
+    <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:text-4xl sm:mt-8">Kamu bisa bekerja di mana saja, <span class="text-indigo-500">Take advantage of it.</span></h1>
+    <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+        Workacation helps you find work-friendly rentals in beautiful location so you can enjoy some nice weather even when you're not on vocation.
+    </p>
+    <div class="mt-4 sm:mt-6" >
+        <a class="inline-block px-5 py-3 shadow-lg bg-indigo-500 text-white font-semibold text-sm sm:text-base rounded-lg uppercase tracking-wider" href="#">Book your escape</a>
+    </div>
+    </div>
+</body>
+</html>
